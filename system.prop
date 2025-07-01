@@ -1,0 +1,3 @@
+# system.prop para HP Slate21
+ro.vendor.product.device=phobos
+ro.vendor.product.brand=hp
