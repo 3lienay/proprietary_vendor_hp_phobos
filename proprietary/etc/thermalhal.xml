@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thermal_config>
+    <!-- Basic Tegra 4 thermal configuration -->
+    <sensor name="cpu">
+        <throttle threshold="85000" cpu_max_freq="1200000"/>
+        <throttle threshold="90000" cpu_max_freq="800000"/>
+        <shutdown threshold="95000"/>
+    </sensor>
+</thermal_config>
